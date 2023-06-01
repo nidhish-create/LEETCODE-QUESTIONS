@@ -12,7 +12,7 @@ class Solution:
         if leftroot == None and rightroot == None:
             return True
         # If exactly one of them is a null node, return false...
-        if leftroot == None or rightroot == None:
+        if leftroot == None or rightroot == None:                   
             return False
         # If root nodes haven't same value, return false...
         if leftroot.val != rightroot.val:
