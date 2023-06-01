@@ -5,7 +5,7 @@ class Solution(object):
         self.nums = nums 
         """
         :type nums: List[int]
-        """
+        """                        
         
 
     def reset(self):
