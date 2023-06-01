@@ -11,4 +11,4 @@ class Solution:
             right = right.next
             #main thing to delete ie we will skip the node we want to delete 
         left.next = left.next.next
-        return dummy.next 
+        return dummy.next    
