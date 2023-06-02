@@ -5,7 +5,7 @@ class Solution:
         l, r = 0, len(matrix[0]) - 1
         while l < r:
             for i in range(r - l):
-                top, bottom = l, r
+                top, bottom = l, r        
 
                 # save the topleft               
                 topLeft = matrix[top][l + i]
