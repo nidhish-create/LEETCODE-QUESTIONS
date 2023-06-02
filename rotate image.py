@@ -7,7 +7,7 @@ class Solution:
             for i in range(r - l):
                 top, bottom = l, r
 
-                # save the topleft
+                # save the topleft               
                 topLeft = matrix[top][l + i]
 
                 # move bottom left into top left
