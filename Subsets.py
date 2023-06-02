@@ -5,7 +5,7 @@ class Solution(object):
             
         for i in nums:
             for j in range(len(ans)):
-                ans.append(ans[j] + [i])
+                ans.append(ans[j] + [i])               
                       
         return ans
                 
