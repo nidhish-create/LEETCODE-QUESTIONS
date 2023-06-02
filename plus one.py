@@ -9,7 +9,7 @@ class Solution:
                 #then 9+1 = 0 1 will be the carry 
                     digits[i]=0
                 else:#when its not equal to  9 we will increment acc to question with one and we dont need carry at that time 
-                    
+                                 
                     digits[i]+=1
                     carry = 0
                 
