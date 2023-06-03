@@ -4,7 +4,7 @@ class Solution:
         carry =1#we will initialize carrey as 1 because what if we get [9,9,9]
         i=0#index @ 0
         while carry  :#carry =1
-            if i <len(digits):#when i si inside the length if digits 
+            if i <len(digits):#when i si inside the length if digits                           
                 if digits[i]==9:#special case of carry 
                 #then 9+1 = 0 1 will be the carry 
                     digits[i]=0
