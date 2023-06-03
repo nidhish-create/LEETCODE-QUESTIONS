@@ -4,7 +4,7 @@ class Solution(object):
         
         self.nums = nums 
         """
-        :type nums: List[int]
+        :type nums: List[int]  
         """                        
         
 
