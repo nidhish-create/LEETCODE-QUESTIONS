@@ -1,5 +1,5 @@
 class Solution(object):
-    def firstUniqChar(self, s):
+    def firstUniqChar(self, s):      
         import collections
         counter = collections.Counter(list(s))
         for i in range (len(s)):#we will iterate to check the unique element 
