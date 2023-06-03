@@ -5,4 +5,4 @@ class Solution(object):
         for i in range (len(s)):#we will iterate to check the unique element 
             if counter.get(s[i]) == 1:#if we have a unique eleemtn it will return its index i 
                 return i 
-        return -1    
+        return -1                   
