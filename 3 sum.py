@@ -5,7 +5,7 @@ class Solution:
         for i in range(len(nums) - 2):
             firstNum = nums[i]
             j = i + 1                 
-            k = len(nums) - 1
+            k = len(nums) - 1                  
             while j < k:
                 secondNum  = nums[j]
                 thirdNum = nums[k]
