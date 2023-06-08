@@ -1,6 +1,6 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        nums.sort()
+        nums.sort()               
         triplets = set()
         for i in range(len(nums) - 2):
             firstNum = nums[i]
