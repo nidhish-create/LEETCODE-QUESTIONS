@@ -2,7 +2,7 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()               
         triplets = set()
-        for i in range(len(nums) - 2):
+        for i in range(len(nums) - 2):           
             firstNum = nums[i]
             j = i + 1                 
             k = len(nums) - 1                  
