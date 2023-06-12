@@ -8,7 +8,7 @@ class Solution(object):
         """                        
         
         
-    def reset(self):
+    def reset(self):      
         return self.nums
         """
         :rtype: List[int]
