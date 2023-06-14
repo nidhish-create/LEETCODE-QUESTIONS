@@ -5,7 +5,7 @@ class Solution:
             return False
         if len(concatenated)>9:
             return False
-        for i in range(1,10):
+        for i in range(1,10):  
             if str(i) not in concatenated:
                 return False 
         return True        
