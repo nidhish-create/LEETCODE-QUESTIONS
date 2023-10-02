@@ -6,3 +6,4 @@ class Solution(object):
             if counter.get(s[i]) == 1:#if we have a unique eleemtn it will return its index i 
                 return i 
         return -1                   
+  
