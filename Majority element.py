@@ -13,7 +13,7 @@ class Solution:
         keys = list(dict.keys())
         
         k = 0
-        
+          
         for i in range(len(values)):
             
             if values[i] > (len(nums)/2):
