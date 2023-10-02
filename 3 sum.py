@@ -11,7 +11,7 @@ class Solution:
                 thirdNum = nums[k]
 
                 potentialSum = firstNum + secondNum + thirdNum                
-                if potentialSum > 0:
+                if potentialSum > 0:  
                     k -= 1
                 elif potentialSum < 0:
                     j += 1
