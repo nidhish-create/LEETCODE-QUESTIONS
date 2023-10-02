@@ -10,7 +10,7 @@ class Solution:
                 secondNum  = nums[j]
                 thirdNum = nums[k]
 
-                potentialSum = firstNum + secondNum + thirdNum              
+                potentialSum = firstNum + secondNum + thirdNum                
                 if potentialSum > 0:
                     k -= 1
                 elif potentialSum < 0:
