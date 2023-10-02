@@ -10,7 +10,7 @@ class Solution:
                 dict[nums[i]] += 1
                 
         values = list(dict.values())
-        keys = list(dict.keys())
+        keys = list(dict.keys())    
         
         k = 0
           
