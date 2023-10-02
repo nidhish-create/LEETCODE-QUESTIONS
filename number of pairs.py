@@ -9,3 +9,4 @@ class Solution:
             else:
                 repeats[num] = 1
         return pairs
+   
