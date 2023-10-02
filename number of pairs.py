@@ -10,3 +10,4 @@ class Solution:
                 repeats[num] = 1
         return pairs
    
+   
